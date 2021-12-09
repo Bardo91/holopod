@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DLPDLCR2000EVM">
+<pad name="GND_1" x="0" y="0" drill="0.8" diameter="1.5"/>
+<pad name="GND_2" x="2.54" y="0" drill="0.8" diameter="1.5"/>
+<pad name="VTINF" x="0" y="-2.54" drill="0.8" diameter="1.5"/>
+<pad name="P$4" x="2.54" y="-2.54" drill="0.8" diameter="1.5"/>
+<pad name="P$5" x="0" y="-5.08" drill="0.8" diameter="1.5"/>
+<pad name="P$6" x="2.54" y="-5.08" drill="0.8" diameter="1.5"/>
+<pad name="P$7" x="0" y="-7.62" drill="0.8" diameter="1.5"/>
+<pad name="P$8" x="2.54" y="-7.62" drill="0.8" diameter="1.5"/>
+<pad name="P$9" x="0" y="-10.16" drill="0.8" diameter="1.5"/>
+<pad name="P$10" x="2.54" y="-10.16" drill="0.8" diameter="1.5"/>
+<pad name="P$11" x="0" y="-12.7" drill="0.8" diameter="1.5"/>
+<pad name="P$12" x="2.54" y="-12.7" drill="0.8" diameter="1.5"/>
+<pad name="P$13" x="0" y="-15.24" drill="0.8" diameter="1.5"/>
+<pad name="P$14" x="2.54" y="-15.24" drill="0.8" diameter="1.5"/>
+<pad name="PROJ_ON_EXT" x="0" y="-17.78" drill="0.8" diameter="1.5"/>
+<pad name="P$16" x="2.54" y="-17.78" drill="0.8" diameter="1.5"/>
+<pad name="P$17" x="0" y="-20.32" drill="0.8" diameter="1.5"/>
+<pad name="P$18" x="2.54" y="-20.32" drill="0.8" diameter="1.5"/>
+<pad name="EXT_SCL" x="0" y="-22.86" drill="0.8" diameter="1.5"/>
+<pad name="EXT_SDA" x="2.54" y="-22.86" drill="0.8" diameter="1.5"/>
+<pad name="P$21" x="0" y="-25.4" drill="0.8" diameter="1.5"/>
+<pad name="P$22" x="2.54" y="-25.4" drill="0.8" diameter="1.5"/>
+<pad name="P$23" x="0" y="-27.94" drill="0.8" diameter="1.5"/>
+<pad name="P$24" x="2.54" y="-27.94" drill="0.8" diameter="1.5"/>
+<pad name="P$25" x="0" y="-30.48" drill="0.8" diameter="1.5"/>
+<pad name="P$26" x="2.54" y="-30.48" drill="0.8" diameter="1.5"/>
+<pad name="P$27" x="0" y="-33.02" drill="0.8" diameter="1.5"/>
+<pad name="P$28" x="2.54" y="-33.02" drill="0.8" diameter="1.5"/>
+<pad name="P$29" x="0" y="-35.56" drill="0.8" diameter="1.5"/>
+<pad name="P$30" x="2.54" y="-35.56" drill="0.8" diameter="1.5"/>
+<pad name="P$31" x="0" y="-38.1" drill="0.8" diameter="1.5"/>
+<pad name="P$32" x="2.54" y="-38.1" drill="0.8" diameter="1.5"/>
+<pad name="P$33" x="0" y="-40.64" drill="0.8" diameter="1.5"/>
+<pad name="P$34" x="2.54" y="-40.64" drill="0.8" diameter="1.5"/>
+<pad name="P$35" x="0" y="-43.18" drill="0.8" diameter="1.5"/>
+<pad name="P$36" x="2.54" y="-43.18" drill="0.8" diameter="1.5"/>
+<pad name="P$37" x="0" y="-45.72" drill="0.8" diameter="1.5"/>
+<pad name="P$38" x="2.54" y="-45.72" drill="0.8" diameter="1.5"/>
+<pad name="P$39" x="0" y="-48.26" drill="0.8" diameter="1.5"/>
+<pad name="P$40" x="2.54" y="-48.26" drill="0.8" diameter="1.5"/>
+<pad name="P$41" x="0" y="-50.8" drill="0.8" diameter="1.5"/>
+<pad name="P$42" x="2.54" y="-50.8" drill="0.8" diameter="1.5"/>
+<pad name="HOST_PRESENTZ" x="0" y="-53.34" drill="0.8" diameter="1.5"/>
+<pad name="GND_3" x="2.54" y="-53.34" drill="0.8" diameter="1.5"/>
+<pad name="GND_4" x="0" y="-55.88" drill="0.8" diameter="1.5"/>
+<pad name="GND_5" x="2.54" y="-55.88" drill="0.8" diameter="1.5"/>
+<pad name="P$47" x="48.26" y="0" drill="0.8" diameter="1.5"/>
+<pad name="P$48" x="50.8" y="0" drill="0.8" diameter="1.5"/>
+<pad name="P$49" x="48.26" y="-2.54" drill="0.8" diameter="1.5"/>
+<pad name="P$50" x="50.8" y="-2.54" drill="0.8" diameter="1.5"/>
+<pad name="P$51" x="48.26" y="-5.08" drill="0.8" diameter="1.5"/>
+<pad name="P$52" x="50.8" y="-5.08" drill="0.8" diameter="1.5"/>
+<pad name="P$53" x="48.26" y="-7.62" drill="0.8" diameter="1.5"/>
+<pad name="P$54" x="50.8" y="-7.62" drill="0.8" diameter="1.5"/>
+<pad name="P$55" x="48.26" y="-10.16" drill="0.8" diameter="1.5"/>
+<pad name="P$56" x="50.8" y="-10.16" drill="0.8" diameter="1.5"/>
+<pad name="DATA18" x="48.26" y="-12.7" drill="0.8" diameter="1.5"/>
+<pad name="DATA19" x="50.8" y="-12.7" drill="0.8" diameter="1.5"/>
+<pad name="DATA22" x="48.26" y="-15.24" drill="0.8" diameter="1.5"/>
+<pad name="DATA21" x="50.8" y="-15.24" drill="0.8" diameter="1.5"/>
+<pad name="DATA16" x="48.26" y="-17.78" drill="0.8" diameter="1.5"/>
+<pad name="DATA17" x="50.8" y="-17.78" drill="0.8" diameter="1.5"/>
+<pad name="DATA20" x="48.26" y="-20.32" drill="0.8" diameter="1.5"/>
+<pad name="GPIO5" x="50.8" y="-20.32" drill="0.8" diameter="1.5"/>
+<pad name="DATA23" x="48.26" y="-22.86" drill="0.8" diameter="1.5"/>
+<pad name="P$66" x="50.8" y="-22.86" drill="0.8" diameter="1.5"/>
+<pad name="P$67" x="48.26" y="-25.4" drill="0.8" diameter="1.5"/>
+<pad name="P$68" x="50.8" y="-25.4" drill="0.8" diameter="1.5"/>
+<pad name="P$69" x="48.26" y="-27.94" drill="0.8" diameter="1.5"/>
+<pad name="P$70" x="50.8" y="-27.94" drill="0.8" diameter="1.5"/>
+<pad name="P$71" x="48.26" y="-30.48" drill="0.8" diameter="1.5"/>
+<pad name="GPIO_INIT_DONE" x="50.8" y="-30.48" drill="0.8" diameter="1.5"/>
+<pad name="VSYNC" x="48.26" y="-33.02" drill="0.8" diameter="1.5"/>
+<pad name="PCLK" x="50.8" y="-33.02" drill="0.8" diameter="1.5"/>
+<pad name="HSYNC" x="48.26" y="-35.56" drill="0.8" diameter="1.5"/>
+<pad name="DATAEN" x="50.8" y="-35.56" drill="0.8" diameter="1.5"/>
+<pad name="DATA14" x="48.26" y="-38.1" drill="0.8" diameter="1.5"/>
+<pad name="DATA15" x="50.8" y="-38.1" drill="0.8" diameter="1.5"/>
+<pad name="DATA13" x="48.26" y="-40.64" drill="0.8" diameter="1.5"/>
+<pad name="DATA11" x="50.8" y="-40.64" drill="0.8" diameter="1.5"/>
+<pad name="DATA12" x="48.26" y="-43.18" drill="0.8" diameter="1.5"/>
+<pad name="DATA10" x="50.8" y="-43.18" drill="0.8" diameter="1.5"/>
+<pad name="DATA8" x="48.26" y="-45.72" drill="0.8" diameter="1.5"/>
+<pad name="DATA9" x="50.8" y="-45.72" drill="0.8" diameter="1.5"/>
+<pad name="DATA6" x="48.26" y="-48.26" drill="0.8" diameter="1.5"/>
+<pad name="DATA7" x="50.8" y="-48.26" drill="0.8" diameter="1.5"/>
+<pad name="DATA4" x="48.26" y="-50.8" drill="0.8" diameter="1.5"/>
+<pad name="DATA5" x="50.8" y="-50.8" drill="0.8" diameter="1.5"/>
+<pad name="DATA2" x="48.26" y="-53.34" drill="0.8" diameter="1.5"/>
+<pad name="DATA3" x="50.8" y="-53.34" drill="0.8" diameter="1.5"/>
+<pad name="DATA0" x="48.26" y="-55.88" drill="0.8" diameter="1.5"/>
+<pad name="DATA1" x="50.8" y="-55.88" drill="0.8" diameter="1.5"/>
+<text x="26.67" y="-44.45" size="2.54" layer="21" rot="R90">DLPDLCR2000EVM</text>
+<wire x1="5.08" y1="3.81" x2="45.72" y2="3.81" width="0.127" layer="21"/>
+<wire x1="45.72" y1="3.81" x2="45.72" y2="-59.69" width="0.127" layer="21"/>
+<wire x1="45.72" y1="-59.69" x2="5.08" y2="-59.69" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-59.69" x2="5.08" y2="3.81" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DLPDLCR2000EVM">
+<pin name="DATA3" x="33.02" y="43.18" length="middle" rot="R180"/>
+<pin name="DATA4" x="33.02" y="38.1" length="middle" rot="R180"/>
+<pin name="DATA2" x="33.02" y="48.26" length="middle" rot="R180"/>
+<pin name="DATA1" x="33.02" y="53.34" length="middle" rot="R180"/>
+<pin name="DATA0" x="33.02" y="58.42" length="middle" rot="R180"/>
+<pin name="DATA5" x="33.02" y="33.02" length="middle" rot="R180"/>
+<pin name="DATA6" x="33.02" y="27.94" length="middle" rot="R180"/>
+<pin name="DATA7" x="33.02" y="22.86" length="middle" rot="R180"/>
+<pin name="DATA8" x="33.02" y="17.78" length="middle" rot="R180"/>
+<pin name="DATA9" x="33.02" y="12.7" length="middle" rot="R180"/>
+<pin name="DATA10" x="33.02" y="7.62" length="middle" rot="R180"/>
+<pin name="DATA11" x="33.02" y="2.54" length="middle" rot="R180"/>
+<pin name="DATA12" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="DATA13" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="DATA14" x="33.02" y="-12.7" length="middle" rot="R180"/>
+<pin name="DATA15" x="33.02" y="-17.78" length="middle" rot="R180"/>
+<pin name="DATA16" x="33.02" y="-22.86" length="middle" rot="R180"/>
+<pin name="DATA17" x="33.02" y="-27.94" length="middle" rot="R180"/>
+<pin name="DATA18" x="33.02" y="-33.02" length="middle" rot="R180"/>
+<pin name="DATA19" x="33.02" y="-38.1" length="middle" rot="R180"/>
+<pin name="DATA20" x="33.02" y="-43.18" length="middle" rot="R180"/>
+<pin name="DATA21" x="33.02" y="-48.26" length="middle" rot="R180"/>
+<pin name="DATA22" x="33.02" y="-53.34" length="middle" rot="R180"/>
+<pin name="DATA23" x="33.02" y="-58.42" length="middle" rot="R180"/>
+<pin name="GND" x="-33.02" y="33.02" length="middle"/>
+<pin name="VTINF" x="-33.02" y="27.94" length="middle"/>
+<pin name="PROJ_ON_EXT" x="-33.02" y="17.78" length="middle"/>
+<pin name="HOST_PRESENTZ" x="-33.02" y="12.7" length="middle"/>
+<pin name="GPIO5" x="-33.02" y="7.62" length="middle"/>
+<pin name="GPIO_INIT_DONE" x="-33.02" y="2.54" length="middle"/>
+<pin name="HSYNC" x="-33.02" y="-12.7" length="middle"/>
+<pin name="PCLK" x="-33.02" y="-17.78" length="middle"/>
+<pin name="VSYNC" x="-33.02" y="-7.62" length="middle"/>
+<pin name="DATAEN" x="-33.02" y="-22.86" length="middle"/>
+<pin name="EXT_SCL" x="-33.02" y="-33.02" length="middle"/>
+<pin name="EXT_SDA" x="-33.02" y="-38.1" length="middle"/>
+<wire x1="-27.94" y1="63.5" x2="27.94" y2="63.5" width="0.254" layer="90"/>
+<wire x1="27.94" y1="63.5" x2="27.94" y2="-60.96" width="0.254" layer="90"/>
+<wire x1="27.94" y1="-60.96" x2="-27.94" y2="-60.96" width="0.254" layer="90"/>
+<wire x1="-27.94" y1="-60.96" x2="-27.94" y2="63.5" width="0.254" layer="90"/>
+<text x="2.54" y="-38.1" size="6.4516" layer="95" rot="R90">DLPDLCR2000EVM</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DLPDLCR2000EVM">
+<description>The DLP® LightCrafter Display 2000 Evaluation Module (EVM) is the most affordable, compact, plug-and-play DLP display EVM for many ultra-mobile, ultra-portable display applications like mobile projectors, smart home displays, AR glasses, appliances, and robotics. This EVM features the DLP2000 (nHD) chipset, optical engine (which can be purchased separately here), and 8/16/24-bit RGB parallel video processor interface. Visit DLPDLCR230NPEVM for a higher performance EVM option that features 1080p resolution, 100lm, and Raspberry Pi out of the box.
+
+https://www.ti.com/tool/DLPDLCR2000EVM</description>
+<gates>
+<gate name="G$1" symbol="DLPDLCR2000EVM" x="12.7" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="DLPDLCR2000EVM">
+<connects>
+<connect gate="G$1" pin="DATA0" pad="DATA0"/>
+<connect gate="G$1" pin="DATA1" pad="DATA1"/>
+<connect gate="G$1" pin="DATA10" pad="DATA10"/>
+<connect gate="G$1" pin="DATA11" pad="DATA11"/>
+<connect gate="G$1" pin="DATA12" pad="DATA12"/>
+<connect gate="G$1" pin="DATA13" pad="DATA13"/>
+<connect gate="G$1" pin="DATA14" pad="DATA14"/>
+<connect gate="G$1" pin="DATA15" pad="DATA15"/>
+<connect gate="G$1" pin="DATA16" pad="DATA16"/>
+<connect gate="G$1" pin="DATA17" pad="DATA17"/>
+<connect gate="G$1" pin="DATA18" pad="DATA18"/>
+<connect gate="G$1" pin="DATA19" pad="DATA19"/>
+<connect gate="G$1" pin="DATA2" pad="DATA2"/>
+<connect gate="G$1" pin="DATA20" pad="DATA20"/>
+<connect gate="G$1" pin="DATA21" pad="DATA21"/>
+<connect gate="G$1" pin="DATA22" pad="DATA22"/>
+<connect gate="G$1" pin="DATA23" pad="DATA23"/>
+<connect gate="G$1" pin="DATA3" pad="DATA3"/>
+<connect gate="G$1" pin="DATA4" pad="DATA4"/>
+<connect gate="G$1" pin="DATA5" pad="DATA5"/>
+<connect gate="G$1" pin="DATA6" pad="DATA6"/>
+<connect gate="G$1" pin="DATA7" pad="DATA7"/>
+<connect gate="G$1" pin="DATA8" pad="DATA8"/>
+<connect gate="G$1" pin="DATA9" pad="DATA9"/>
+<connect gate="G$1" pin="DATAEN" pad="DATAEN"/>
+<connect gate="G$1" pin="EXT_SCL" pad="EXT_SCL"/>
+<connect gate="G$1" pin="EXT_SDA" pad="EXT_SDA"/>
+<connect gate="G$1" pin="GND" pad="GND_1 GND_2 GND_3 GND_4 GND_5"/>
+<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="G$1" pin="GPIO_INIT_DONE" pad="GPIO_INIT_DONE"/>
+<connect gate="G$1" pin="HOST_PRESENTZ" pad="HOST_PRESENTZ"/>
+<connect gate="G$1" pin="HSYNC" pad="HSYNC"/>
+<connect gate="G$1" pin="PCLK" pad="PCLK"/>
+<connect gate="G$1" pin="PROJ_ON_EXT" pad="PROJ_ON_EXT"/>
+<connect gate="G$1" pin="VSYNC" pad="VSYNC"/>
+<connect gate="G$1" pin="VTINF" pad="VTINF"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

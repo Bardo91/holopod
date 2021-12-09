@@ -1,0 +1,339 @@
+# Created by Ultra Librarian Gold 8.3.301 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'TFBGA-60_8X10_ISI.pac';
+Grid Mil;
+Layer 1;
+Smd 'A1' 16 16 -100 R0 (-125.9842 141.7323);
+Layer 1;
+Smd 'A2' 16 16 -100 R0 (-94.4882 141.7323);
+Layer 1;
+Smd 'A3' 16 16 -100 R0 (-62.9921 141.7323);
+Layer 1;
+Smd 'A7' 16 16 -100 R0 (62.9921 141.7323);
+Layer 1;
+Smd 'A8' 16 16 -100 R0 (94.4882 141.7323);
+Layer 1;
+Smd 'A9' 16 16 -100 R0 (125.9842 141.7323);
+Layer 1;
+Smd 'B1' 16 16 -100 R0 (-125.9842 110.2362);
+Layer 1;
+Smd 'B2' 16 16 -100 R0 (-94.4882 110.2362);
+Layer 1;
+Smd 'B3' 16 16 -100 R0 (-62.9921 110.2362);
+Layer 1;
+Smd 'B7' 16 16 -100 R0 (62.9921 110.2362);
+Layer 1;
+Smd 'B8' 16 16 -100 R0 (94.4882 110.2362);
+Layer 1;
+Smd 'B9' 16 16 -100 R0 (125.9842 110.2362);
+Layer 1;
+Smd 'C1' 16 16 -100 R0 (-125.9842 78.7402);
+Layer 1;
+Smd 'C2' 16 16 -100 R0 (-94.4882 78.7402);
+Layer 1;
+Smd 'C3' 16 16 -100 R0 (-62.9921 78.7402);
+Layer 1;
+Smd 'C7' 16 16 -100 R0 (62.9921 78.7402);
+Layer 1;
+Smd 'C8' 16 16 -100 R0 (94.4882 78.7402);
+Layer 1;
+Smd 'C9' 16 16 -100 R0 (125.9842 78.7402);
+Layer 1;
+Smd 'D1' 16 16 -100 R0 (-125.9842 47.2441);
+Layer 1;
+Smd 'D2' 16 16 -100 R0 (-94.4882 47.2441);
+Layer 1;
+Smd 'D3' 16 16 -100 R0 (-62.9921 47.2441);
+Layer 1;
+Smd 'D7' 16 16 -100 R0 (62.9921 47.2441);
+Layer 1;
+Smd 'D8' 16 16 -100 R0 (94.4882 47.2441);
+Layer 1;
+Smd 'D9' 16 16 -100 R0 (125.9842 47.2441);
+Layer 1;
+Smd 'E1' 16 16 -100 R0 (-125.9842 15.748);
+Layer 1;
+Smd 'E2' 16 16 -100 R0 (-94.4882 15.748);
+Layer 1;
+Smd 'E3' 16 16 -100 R0 (-62.9921 15.748);
+Layer 1;
+Smd 'E7' 16 16 -100 R0 (62.9921 15.748);
+Layer 1;
+Smd 'E8' 16 16 -100 R0 (94.4882 15.748);
+Layer 1;
+Smd 'E9' 16 16 -100 R0 (125.9842 15.748);
+Layer 1;
+Smd 'F1' 16 16 -100 R0 (-125.9842 -15.748);
+Layer 1;
+Smd 'F2' 16 16 -100 R0 (-94.4882 -15.748);
+Layer 1;
+Smd 'F3' 16 16 -100 R0 (-62.9921 -15.748);
+Layer 1;
+Smd 'F7' 16 16 -100 R0 (62.9921 -15.748);
+Layer 1;
+Smd 'F8' 16 16 -100 R0 (94.4882 -15.748);
+Layer 1;
+Smd 'F9' 16 16 -100 R0 (125.9842 -15.748);
+Layer 1;
+Smd 'G1' 16 16 -100 R0 (-125.9842 -47.2441);
+Layer 1;
+Smd 'G2' 16 16 -100 R0 (-94.4882 -47.2441);
+Layer 1;
+Smd 'G3' 16 16 -100 R0 (-62.9921 -47.2441);
+Layer 1;
+Smd 'G7' 16 16 -100 R0 (62.9921 -47.2441);
+Layer 1;
+Smd 'G8' 16 16 -100 R0 (94.4882 -47.2441);
+Layer 1;
+Smd 'G9' 16 16 -100 R0 (125.9842 -47.2441);
+Layer 1;
+Smd 'H1' 16 16 -100 R0 (-125.9842 -78.7401);
+Layer 1;
+Smd 'H2' 16 16 -100 R0 (-94.4882 -78.7401);
+Layer 1;
+Smd 'H3' 16 16 -100 R0 (-62.9921 -78.7401);
+Layer 1;
+Smd 'H7' 16 16 -100 R0 (62.9921 -78.7401);
+Layer 1;
+Smd 'H8' 16 16 -100 R0 (94.4882 -78.7401);
+Layer 1;
+Smd 'H9' 16 16 -100 R0 (125.9842 -78.7401);
+Layer 1;
+Smd 'J1' 16 16 -100 R0 (-125.9842 -110.2362);
+Layer 1;
+Smd 'J2' 16 16 -100 R0 (-94.4882 -110.2362);
+Layer 1;
+Smd 'J3' 16 16 -100 R0 (-62.9921 -110.2362);
+Layer 1;
+Smd 'J7' 16 16 -100 R0 (62.9921 -110.2362);
+Layer 1;
+Smd 'J8' 16 16 -100 R0 (94.4882 -110.2362);
+Layer 1;
+Smd 'J9' 16 16 -100 R0 (125.9842 -110.2362);
+Layer 1;
+Smd 'K1' 16 16 -100 R0 (-125.9842 -141.7323);
+Layer 1;
+Smd 'K2' 16 16 -100 R0 (-94.4882 -141.7323);
+Layer 1;
+Smd 'K3' 16 16 -100 R0 (-62.9921 -141.7323);
+Layer 1;
+Smd 'K7' 16 16 -100 R0 (62.9921 -141.7323);
+Layer 1;
+Smd 'K8' 16 16 -100 R0 (94.4882 -141.7323);
+Layer 1;
+Smd 'K9' 16 16 -100 R0 (125.9842 -141.7323);
+Layer 21;
+Wire 6 (-160 16) (-170 16);
+Wire 6 (159 16) (169 16);
+Wire 6 (-160 -142) (-170 -142);
+Wire 6 (159 -142) (169 -142);
+Wire 6 (0 199) (0 209);
+Wire 6 (0 -199) (0 -209);
+Wire 6 (-164 -204) (164 -204);
+Wire 6 (164 -204) (164 204);
+Wire 6 (164 204) (-164 204);
+Wire 6 (-164 204) (-164 -204);
+Change Size 50;
+Change Ratio 6;
+Text 'A' SR0 (-230 117);
+Change Size 50;
+Change Ratio 6;
+Text 'K' SR0 (-230 -167);
+Change Size 50;
+Change Ratio 6;
+Text '1' SR90 (-101 224);
+Change Size 50;
+Change Ratio 6;
+Text '9' SR90 (151 224);
+Layer 51;
+Wire 6 (-144 199) (-160 183);
+Wire 6 (-160 -199) (160 -199);
+Wire 6 (160 -199) (160 199);
+Wire 6 (160 199) (-160 199);
+Wire 6 (-160 199) (-160 -199);
+Change Size 50;
+Change Ratio 6;
+Text 'A' SR0 (-230 117);
+Change Size 50;
+Change Ratio 6;
+Text 'K' SR0 (-230 -167);
+Change Size 50;
+Change Ratio 6;
+Text '1' SR90 (-101 224);
+Change Size 50;
+Change Ratio 6;
+Text '9' SR90 (151 224);
+Layer 22;
+Change Size 50;
+Change Ratio 6;
+Text 'A' SMR0 (-185 117);
+Change Size 50;
+Change Ratio 6;
+Text 'K' SMR0 (-185 -167);
+Change Size 50;
+Change Ratio 6;
+Text '1' SMR90 (-151 224);
+Change Size 50;
+Change Ratio 6;
+Text '9' SMR90 (101 224);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-68 -25);
+
+Edit 'IS43LR16160F-6BL.sym';
+Grid Mil;
+Layer 94;
+Pin 'VSS_2' Pwr None Middle R0 Both 0 (100 0)
+Pin 'DQ15' I/O None Middle R0 Both 0 (100 -100)
+Pin 'VSSQ_2' Pwr None Middle R0 Both 0 (100 -200)
+Pin 'VDDQ_2' Pwr None Middle R0 Both 0 (100 -300)
+Pin 'DQ0' I/O None Middle R0 Both 0 (100 -400)
+Pin 'VDD_2' Pwr None Middle R0 Both 0 (100 -500)
+Pin 'VDDQ_3' Pwr None Middle R0 Both 0 (100 -600)
+Pin 'DQ13' I/O None Middle R0 Both 0 (100 -700)
+Pin 'DQ14' I/O None Middle R0 Both 0 (100 -800)
+Pin 'DQ1' I/O None Middle R0 Both 0 (100 -900)
+Pin 'DQ2' I/O None Middle R0 Both 0 (100 -1000)
+Pin 'VSSQ_3' Pwr None Middle R0 Both 0 (100 -1100)
+Pin 'VSSQ_4' Pwr None Middle R0 Both 0 (100 -1200)
+Pin 'DQ11' I/O None Middle R0 Both 0 (100 -1300)
+Pin 'DQ12' I/O None Middle R0 Both 0 (100 -1400)
+Pin 'DQ3' I/O None Middle R0 Both 0 (100 -1500)
+Pin 'DQ4' I/O None Middle R0 Both 0 (100 -1600)
+Pin 'VDDQ_4' Pwr None Middle R0 Both 0 (100 -1700)
+Pin 'VDDQ_5' Pwr None Middle R0 Both 0 (100 -1800)
+Pin 'DQ9' I/O None Middle R0 Both 0 (100 -1900)
+Pin 'DQ10' I/O None Middle R0 Both 0 (100 -2000)
+Pin 'DQ5' I/O None Middle R0 Both 0 (100 -2100)
+Pin 'DQ6' I/O None Middle R0 Both 0 (100 -2200)
+Pin 'VSSQ_5' Pwr None Middle R0 Both 0 (100 -2300)
+Pin 'VSSQ' Pwr None Middle R0 Both 0 (100 -2400)
+Pin 'UDQS' I/O None Middle R0 Both 0 (100 -2500)
+Pin 'DQ8' I/O None Middle R0 Both 0 (100 -2600)
+Pin 'DQ7' I/O None Middle R0 Both 0 (100 -2700)
+Pin 'LDQS' I/O None Middle R0 Both 0 (100 -2800)
+Pin 'VDDQ' Pwr None Middle R0 Both 0 (100 -2900)
+Pin 'VSS_3' Pwr None Middle R180 Both 0 (2300 -2900)
+Pin 'UDM' In None Middle R180 Both 0 (2300 -2800)
+Pin 'NC_2' NC None Middle R180 Both 0 (2300 -2700)
+Pin 'NC' NC None Middle R180 Both 0 (2300 -2600)
+Pin 'LDM' In None Middle R180 Both 0 (2300 -2500)
+Pin 'VDD_3' Pwr None Middle R180 Both 0 (2300 -2400)
+Pin 'CKE' In None Middle R180 Both 0 (2300 -2300)
+Pin 'CK' In None Middle R180 Both 0 (2300 -2200)
+Pin '!CK' In None Middle R180 Both 0 (2300 -2100)
+Pin '!WE' In None Middle R180 Both 0 (2300 -2000)
+Pin '!CAS' In None Middle R180 Both 0 (2300 -1900)
+Pin '!RAS' In None Middle R180 Both 0 (2300 -1800)
+Pin 'A9' In None Middle R180 Both 0 (2300 -1700)
+Pin 'A11' In None Middle R180 Both 0 (2300 -1600)
+Pin 'A12' In None Middle R180 Both 0 (2300 -1500)
+Pin '!CS' In None Middle R180 Both 0 (2300 -1400)
+Pin 'BA0' In None Middle R180 Both 0 (2300 -1300)
+Pin 'BA1' In None Middle R180 Both 0 (2300 -1200)
+Pin 'A6' In None Middle R180 Both 0 (2300 -1100)
+Pin 'A7' In None Middle R180 Both 0 (2300 -1000)
+Pin 'A8' In None Middle R180 Both 0 (2300 -900)
+Pin 'A10' In None Middle R180 Both 0 (2300 -800)
+Pin 'A0' In None Middle R180 Both 0 (2300 -700)
+Pin 'A1' In None Middle R180 Both 0 (2300 -600)
+Pin 'VSS' Pwr None Middle R180 Both 0 (2300 -500)
+Pin 'A4' In None Middle R180 Both 0 (2300 -400)
+Pin 'A5' In None Middle R180 Both 0 (2300 -300)
+Pin 'A2' In None Middle R180 Both 0 (2300 -200)
+Pin 'A3' In None Middle R180 Both 0 (2300 -100)
+Pin 'VDD' Pwr None Middle R180 Both 0 (2300 0)
+Wire 6 (300 200) (300 -3100);
+Wire 6 (300 -3100) (2100 -3100);
+Wire 6 (2100 -3100) (2100 200);
+Wire 6 (2100 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (1014 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (989 259);
+
+Edit 'IS43LR16160F-6BL.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add IS43LR16160F-6BL 'A' Next  0 (0 0);
+Package 'TFBGA-60_8X10_ISI';
+Technology '';
+Attribute Copyright 'Copyright (C) 2021 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'ISSI';
+Attribute Manufacturer_Part_Number 'IS43LR16160F-6BL';
+Connect 'A.VSS_2' 'A1';
+Connect 'A.DQ15' 'A2';
+Connect 'A.VSSQ_2' 'A3';
+Connect 'A.VDDQ_2' 'A7';
+Connect 'A.DQ0' 'A8';
+Connect 'A.VDD_2' 'A9';
+Connect 'A.VDDQ_3' 'B1';
+Connect 'A.DQ13' 'B2';
+Connect 'A.DQ14' 'B3';
+Connect 'A.DQ1' 'B7';
+Connect 'A.DQ2' 'B8';
+Connect 'A.VSSQ_3' 'B9';
+Connect 'A.VSSQ_4' 'C1';
+Connect 'A.DQ11' 'C2';
+Connect 'A.DQ12' 'C3';
+Connect 'A.DQ3' 'C7';
+Connect 'A.DQ4' 'C8';
+Connect 'A.VDDQ_4' 'C9';
+Connect 'A.VDDQ_5' 'D1';
+Connect 'A.DQ9' 'D2';
+Connect 'A.DQ10' 'D3';
+Connect 'A.DQ5' 'D7';
+Connect 'A.DQ6' 'D8';
+Connect 'A.VSSQ_5' 'D9';
+Connect 'A.VSSQ' 'E1';
+Connect 'A.UDQS' 'E2';
+Connect 'A.DQ8' 'E3';
+Connect 'A.DQ7' 'E7';
+Connect 'A.LDQS' 'E8';
+Connect 'A.VDDQ' 'E9';
+Connect 'A.VSS_3' 'F1';
+Connect 'A.UDM' 'F2';
+Connect 'A.NC_2' 'F3';
+Connect 'A.NC' 'F7';
+Connect 'A.LDM' 'F8';
+Connect 'A.VDD_3' 'F9';
+Connect 'A.CKE' 'G1';
+Connect 'A.CK' 'G2';
+Connect 'A.!CK' 'G3';
+Connect 'A.!WE' 'G7';
+Connect 'A.!CAS' 'G8';
+Connect 'A.!RAS' 'G9';
+Connect 'A.A9' 'H1';
+Connect 'A.A11' 'H2';
+Connect 'A.A12' 'H3';
+Connect 'A.!CS' 'H7';
+Connect 'A.BA0' 'H8';
+Connect 'A.BA1' 'H9';
+Connect 'A.A6' 'J1';
+Connect 'A.A7' 'J2';
+Connect 'A.A8' 'J3';
+Connect 'A.A10' 'J7';
+Connect 'A.A0' 'J8';
+Connect 'A.A1' 'J9';
+Connect 'A.VSS' 'K1';
+Connect 'A.A4' 'K2';
+Connect 'A.A5' 'K3';
+Connect 'A.A2' 'K7';
+Connect 'A.A3' 'K8';
+Connect 'A.VDD' 'K9';
